@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Fox_Gray.label>lis szary</Fox_Gray.label>
+	<Fox_Gray.description>Pochodzi z południowej części ziemskiego kontynentu Ameryki Północnej. Urocjona wirginijskiego można łatwo odróżnić od lisa rudego po tym, że ma srebrno-szare futro, czarną końcówkę ogona i czerwonawe futro na klatce piersiowej i nogach.</Fox_Gray.description>
+	<Fox_Gray.race.meatLabel>mięso lisa</Fox_Gray.race.meatLabel>
+	
+	<Fox_Sand.label>lis piaskowy</Fox_Sand.label>
+	<Fox_Sand.description>Znany również jako „lis piaskowy Rüppella”, nazwany na cześć ziemskiego przyrodnika Eduarda Rüppella. Ten mały gatunek lisa żyje w regionach Afryki Północnej, Bliskiego Wschodu i południowo-zachodniej Azji.</Fox_Sand.description>
+		
+	<Fox_Silver.label>lis srebrny</Fox_Silver.label>
+	<Fox_Silver.description>Lis srebrny jest melanistyczną formą lisa rudego. Lisy srebrne wykazują duże zróżnicowanie walorów kolorystycznych sierści. Niektóre są całkowicie czarne, z wyjątkiem białego zabarwienia na końcu ogona, co nadaje im nieco srebrzysty wygląd.</Fox_Silver.description>
+		
+	<Fox_Tibetan.label>lis tybetański</Fox_Tibetan.label>
+	<Fox_Tibetan.description>Gatunek prawdziwego lisa pochodzący z tybetańskich i himalajskich regionów ziemskiego kontynentu azjatyckiego, znany również jako lis tybetański.</Fox_Tibetan.description>
+		
+	<Fox_Maikong.label>Majkong</Fox_Maikong.label>
+	<Fox_Maikong.description>Znany również jako „lis krabożerny”. Pochodzi z ziemskiego kontynentu Ameryki Południowej. Taksonomicznie nie należy do rodziny lisów, będąc jedynym żyjącym przedstawicielem rodziny Cerdocyon. Ten gatunek lisa żyje wzdłuż wybrzeża kontynentu, w dżunglach, sawannach i lasach.</Fox_Maikong.description>
+		
+	<Fox_Kit.label>lis długouchy</Fox_Kit.label>
+	<Fox_Kit.description>Pochodzący z ziemskiego kontynentu Ameryki Północnej, ten gatunek lisów jest uważany za najmniejszy gatunek rodziny lisów i jest jednym z najmniejszych lisów, jest nieco większy od lisa fenka.</Fox_Kit.description>
+			
+</LanguageData>

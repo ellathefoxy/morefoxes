@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--========================== Gray fox ========================-->
+	
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Gray</defName>
+    <label>gray fox</label>
+    <description>Originating from southern half of Earth’s continent of North America. The gray fox is easily distinguishable from the red fox in that they have a silvery gray fur, a black-tipped tail, and reddish fur on its chest and legs.</description>
+    <race>
+      <meatLabel>fox meat</meatLabel>
+	  <wildBiomes>
+		<BorealForest>0.001</BorealForest>
+		<Tundra>0.001</Tundra>
+		<TemperateForest>0.08</TemperateForest>
+		<TemperateSwamp>0.08</TemperateSwamp>
+	  </wildBiomes>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Gray</defName>
+    <label>gray fox</label>
+    <labelPlural>gray foxes</labelPlural>
+    <race>Fox_Gray</race>
+    <lifeStages>
+      <li>
+        <label>gray fox puppy</label>
+        <labelPlural>gray fox puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Gray</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated_Fox_Gray</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Gray</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Dessicated_Fox_Gray</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Gray/Fox_Gray</texPath>
+          <drawSize>1.68</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Gray/Dessicated_Fox_Gray</texPath>
+          <drawSize>1.68</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+
+
+	<!--========================== Sand fox ========================-->
+
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Sand</defName>
+    <label>sand fox</label>
+    <description>Also known as «Rüppell's sand fox» named after Earth’s naturalist Eduard Rüppell. This small fox species lives in the Earth’s North Africa, Middle East and southwest Asia regions.</description>
+    <race>
+      <useMeatFrom>Fox_Gray</useMeatFrom>
+	  <wildBiomes>
+		<ExtremeDesert>0.08</ExtremeDesert>
+		<Desert>0.1</Desert>
+		<AridShrubland>0.15</AridShrubland>
+	  </wildBiomes>
+    </race>
+    <statBases>
+      <ComfyTemperatureMin>-10</ComfyTemperatureMin>
+	  <ComfyTemperatureMax>50</ComfyTemperatureMax>
+    </statBases>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Sand</defName>
+    <label>sand fox</label>
+    <labelPlural>sand foxes</labelPlural>
+    <race>Fox_Sand</race>
+    <lifeStages>
+      <li>
+        <label>sand fox puppy</label>
+        <labelPlural>sand fox puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Fox_Sand</texPath>
+          <drawSize>0.9</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Dessicated_Fox_Sand</texPath>
+          <drawSize>0.9</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Fox_Sand</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Dessicated_Fox_Sand</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Fox_Sand</texPath>
+          <drawSize>1.45</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Sand/Dessicated_Fox_Sand</texPath>
+          <drawSize>1.45</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+    <!--========================== Silver fox ========================-->
+
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Silver</defName>
+    <label>silver fox</label>
+    <description>The silver fox is a melanistic form of the red fox. Silver foxes display a great deal of pelt variation. Some are completely glossy black except for a white colouration on the tip of the tail, giving them a somewhat silvery appearance.</description>
+    <race>
+      <useMeatFrom>Fox_Gray</useMeatFrom>
+	  <wildBiomes>
+		<BorealForest>0.07</BorealForest>
+		<ColdBog>0.07</ColdBog>
+		<TemperateForest>0.07</TemperateForest>
+		<TemperateSwamp>0.07</TemperateSwamp>
+	  </wildBiomes>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Silver</defName>
+    <label>silver fox</label>
+    <labelPlural>silver foxes</labelPlural>
+    <race>Fox_Silver</race>
+    <lifeStages>
+      <li>
+        <label>silver fox puppy</label>
+        <labelPlural>silver fox puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Fox_Silver</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Dessicated_Fox_Silver</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Fox_Silver</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Dessicated_Fox_Silver</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Fox_Silver</texPath>
+          <drawSize>1.68</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Silver/Dessicated_Fox_Silver</texPath>
+          <drawSize>1.68</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+    <!--========================== Tibetan fox ========================-->
+
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Tibetan</defName>
+    <label>tibetan fox</label>
+    <description>Species of true foxes originating from the Tibetan and Himalayan regions of Earth’s continent of Asia, also known as Tibetan sand fox.</description>
+    <race>
+      <useMeatFrom>Fox_Gray</useMeatFrom>
+	  <wildBiomes>
+		<BorealForest>0.07</BorealForest>
+		<ColdBog>0.07</ColdBog>
+		<TemperateForest>0.005</TemperateForest>
+		<Tundra>0.005</Tundra>
+	  </wildBiomes>
+    </race>
+	<statBases>
+      <ComfyTemperatureMin>-40</ComfyTemperatureMin>
+    </statBases>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Tibetan</defName>
+    <label>tibetan fox</label>
+    <labelPlural>tibetan foxes</labelPlural>
+    <race>Fox_Tibetan</race>
+    <lifeStages>
+      <li>
+        <label>tibetan fox puppy</label>
+        <labelPlural>tibetan fox puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Fox_Tibetan</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Dessicated_Fox_Tibetan</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Fox_Tibetan</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Dessicated_Fox_Tibetan</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Fox_Tibetan</texPath>
+          <drawSize>1.68</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Tibetan/Dessicated_Fox_Tibetan</texPath>
+          <drawSize>1.68</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+    <!--========================== Maikong fox ========================-->
+
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Maikong</defName>
+    <label>maikong</label>
+    <description>Also known as «Crab-eating fox». Originated from Earth’s South America continent. Taxonomically does not belong to the fox genus, being the only surviving member of a Cerdocyon genus. Lives along the costs of the continent, in the jungles, savannas and woodlands.</description>
+    <race>
+      <useMeatFrom>Fox_Gray</useMeatFrom>
+	  <wildBiomes>
+		<TropicalRainforest>0.09</TropicalRainforest>
+		<TropicalSwamp>0.09</TropicalSwamp>
+		<TemperateForest>0.005</TemperateForest>
+		<TemperateSwamp>0.005</TemperateSwamp>
+	  </wildBiomes>
+    </race>
+	<statBases>
+      <ComfyTemperatureMin>-20</ComfyTemperatureMin>
+    </statBases>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Maikong</defName>
+    <label>maikong</label>
+    <labelPlural>maikongs</labelPlural>
+    <race>Fox_Maikong</race>
+    <lifeStages>
+      <li>
+        <label>maikong puppy</label>
+        <labelPlural>maikong puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Fox_Maikong</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Dessicated_Fox_Maikong</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Fox_Maikong</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Dessicated_Fox_Maikong</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Fox_Maikong</texPath>
+          <drawSize>1.68</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Maikong/Dessicated_Fox_Maikong</texPath>
+          <drawSize>1.68</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+    <!--========================== Kit fox ========================-->
+
+  <ThingDef ParentName="ThingBaseFox">
+    <defName>Fox_Kit</defName>
+    <label>kit fox</label>
+    <description>Originated from Earth’s North America continent, this species of foxes is considered to be the smallest fox species of Vulpes and is among smallest of the vulpines, being slightly bigger than Fennec foxes.</description>
+    <race>
+      <useMeatFrom>Fox_Fennec</useMeatFrom>
+	  <wildBiomes>
+		<TemperateForest>0.06</TemperateForest>
+		<Desert>0.01</Desert>
+		<AridShrubland>0.08</AridShrubland>
+	  </wildBiomes>
+    </race>
+  </ThingDef>
+
+  <PawnKindDef ParentName="AnimalKindBaseFox">
+    <defName>Fox_Kit</defName>
+    <label>kit fox</label>
+    <labelPlural>kit foxes</labelPlural>
+    <race>Fox_Kit</race>
+    <lifeStages>
+      <li>
+        <label>kit fox puppy</label>
+        <labelPlural>kit fox puppies</labelPlural>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Fox_Kit</texPath>
+          <drawSize>1.0</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Dessicated_Fox_Kit</texPath>
+          <drawSize>1.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Fox_Kit</texPath>
+          <drawSize>1.2</drawSize>
+          <shadowData>
+            <volume>(0.25, 0.3, 0.25)</volume>
+            <offset>(0,0,-0.15)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Dessicated_Fox_Kit</texPath>
+          <drawSize>1.2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Fox_Kit</texPath>
+          <drawSize>1.68</drawSize>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Fox_Kit/Dessicated_Fox_Kit</texPath>
+          <drawSize>1.68</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+  
+  
+</Defs>
